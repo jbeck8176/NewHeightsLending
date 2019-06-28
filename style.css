@@ -7655,3 +7655,12 @@ div#rs-partner .partner-item img {
     background: #6a9708 !important;
   }
 }
+
+.is-table-row {
+    display: table;
+}
+.is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
